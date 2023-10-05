@@ -5,7 +5,7 @@ from langchain.prompts import PromptTemplate
 
 class InvoiceGPT(object):
     
-    def __init__(self, temperature = 0 , model_name = "text-davinci-003"):
+    def __init__(self, temperature = 0 , model_name = "gpt-3.5-turbo-16k"):
         self.name = 'InvoiceGPT'
         self.model_name = model_name
         self.temperature = temperature
